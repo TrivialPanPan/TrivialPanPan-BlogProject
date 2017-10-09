@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrivialPanPan-BlogProject",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrivialPanPan-BlogProject.Tests", "TrivialPanPan-BlogProject.Tests\TrivialPanPan-BlogProject.Tests.csproj", "{799C7DD6-501A-4EB3-9D2F-300533966518}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{55143680-F96E-485F-A57C-F3AE8A9BCDBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{799C7DD6-501A-4EB3-9D2F-300533966518} = {55143680-F96E-485F-A57C-F3AE8A9BCDBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42EE43CD-4E5B-4ECA-B05D-D420AA80AAF5}
